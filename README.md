@@ -1,2 +1,2 @@
-# rajvee-sheth.github.io
+# rajveesheth.github.io
 Github Pages template for academic portfolio
