@@ -643,7 +643,6 @@
     </footer>
 
     <script>
-        // Scroll progress indicator
         const progressBar = document.querySelector('.scroll-progress');
         
         window.addEventListener('scroll', () => {
@@ -689,7 +688,6 @@
             });
         });
 
-        // Add intersection observer for fade-in animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -704,7 +702,6 @@
             });
         }, observerOptions);
 
-        // Observe all items for animation
         document.querySelectorAll('.item, .timeline-item, .publication-item').forEach(item => {
             item.style.opacity = '0';
             item.style.transform = 'translateY(20px)';
